@@ -23,21 +23,24 @@
     
     <section class="all">
 
-        <nav id="desktop-nav">
+    <nav id="desktop-nav">
         <div class="navBar-container">
-        <div class="logo">Rohan Mankame</div>
-        <hr>
+        <!-- <div class="logoName">Rohan Mankame</div> -->
+        <!-- <img src="./assets/GitHubLink.png" alt="GitHub" class="Logo" onclick="location.href='https://github.com/RohanMankame/'" />
+        <img src="./assets/LinkedInLink.png" alt="LinkedIn" class="Logo"  onclick="location.href='https://www.linkedin.com/in/rohanmankame/'"/> -->
+        <!-- <hr> -->
         <div >
             
             <ul class="nav-links">
-                
+
+                <img src="./assets/GitHubLink.png" alt="GitHub" class="Logo" onclick="location.href='https://github.com/RohanMankame/'" />
+                <img src="./assets/LinkedInLink.png" alt="LinkedIn" class="Logo"  onclick="location.href='https://www.linkedin.com/in/rohanmankame/'"/>
+                <hr>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Technologies</a></li>
+                <li><a href="#technologies">Technologies</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-               
-                
             </ul>
         </div>
         </div>
@@ -47,7 +50,7 @@
 
 
     <nav id="hamburger-nav">
-        <div class="logo">Rohan Mankame</div>
+        <div class="logoName">Rohan Mankame</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -55,10 +58,14 @@
                 <span></span>
             </div>
             <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#technologies" onclick="toggleMenu()">Tech</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <hr>
+                <li><a href="https://github.com/RohanMankame/" onclick="toggleMenu()">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/rohanmankame/" onclick="toggleMenu()">LinkedIn</a></li>
             </div>
         </div>
     </nav>
@@ -73,7 +80,7 @@
 
 
 
-        <section class="hero" id="home">
+    <section class="hero" id="home">
        <!--  <canvas id="canvas" width="500" height="500"></canvas> -->
         
         <div class="Home-div">
@@ -88,10 +95,9 @@
 
         
 
-            <div class="ProfileLinks">
-                <img src="./assets/GitHubLink.png" alt="GitHub" class="Logo" onclick="location.href='https://github.com/RohanMankame/'" />
-                <img src="./assets/LinkedInLink.png" alt="LinkedIn" class="Logo"  onclick="location.href='https://www.linkedin.com/in/rohanmankame/'"/>
-            </div>
+            <!-- <div class="ProfileLinks">
+                <img src="./assets/resume_ICON.png" alt="resume" class="resume" onclick="location.href='https://github.com/RohanMankame/'" />
+            </div> -->
 
         </div>
 
@@ -108,9 +114,13 @@
         
     </section>
 
+
+
+
     <section class="about" id="about">
+        <div class="space"></div>
         <div class="about-container">
-            <h1 class="container-title">About Me</h1><hr>
+            <h2 class="container-title">About Me</h2><hr>
             <p class="about-text">Hey there, I'm Rohan, a 
                 recent Computer Science graduate from Penn State,
                  driven by a passion for building software that 
@@ -136,7 +146,7 @@
             
         </div>
 
-        <!-- <img src="./assets/cornerTopLeftWhite.png" alt="TopLeft" class="TopLeft" />
+      <!--   <img src="./assets/cornerTopLeftWhite.png" alt="TopLeft" class="TopLeft" />
         <img src="./assets/cornerTopRightWhite.png" alt="TopRight" class="TopRight" />
 
         <img src="./assets/cornerBottomLeftWhite.png" alt="BottomLeft" class="BottomLeft" />
@@ -145,7 +155,213 @@
         
     </section>
 
+
+    <section class="technologies" id="technologies">
+        <div class="space"></div>
+        <div class="technologies-container">
+
+            <div class="Tech-content-container">
+                <h2 class="container-title">Backend</h2><hr>
+                <div class="artical-container">
+
+                            <article>
+                                <img src="./assets/BackendTech/Python_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>Python</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/BackendTech/Django_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>Django</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/BackendTech/Java_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>Java</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/BackendTech/SpringBoot_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>SpringBoot</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/BackendTech/JavaScript_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>JavaScript</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+                            
+                            
+                </div>
+            </div>
+
+            <div class="Tech-content-container">
+                <h2 class="container-title">Frontend</h2><hr>
+                <div class="artical-container">
+
+                            <article>
+                                <img src="./assets/FrontendTech/HTML_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>HTML</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/FrontendTech/CSS_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>CSS</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/FrontendTech/React_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>React</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+
+                            
+                            
+                            
+                </div>
+            </div>
+
+            <div class="Tech-content-container">
+                <h2 class="container-title">Database</h2><hr>
+                <div class="artical-container">
+
+                            <article>
+                                <img src="./assets/DatabaseTech/MySQL_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>MySQL</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/DatabaseTech/Possgress_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>Postgres</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/DatabaseTech/sqLite_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>sqLite</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/DatabaseTech/MongoDB_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>MongoDB</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+  
+                </div>
+            </div>
+
+            <div class="Tech-content-container">
+                <h2 class="container-title">Tools</h2><hr>
+                <div class="artical-container">
+
+                            <article>
+                                <img src="./assets/ToolTech/Git_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>Git</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/ToolTech/VScode_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>VsCode</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <img src="./assets/ToolTech/Postman_Logo.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>Postman</h3>
+                                    <p>proficient</p>
+                                </div>
+                            </article>
+
+                            
+  
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <section class="projects" id="projects">
+
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <div>
+            <div class="contact-container">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    <div class="container-title">
+                        <h2>Email Form</h2><hr>
+                        
+                    </div>
+
+                    <div class="email-form-inputs">
+                    <input type="hidden" name="access_key" value="c2dfe5f9-6977-4222-a7d2-9c079eae9d39">
+                    
+                    <input type="text" name="name" placeholder="Enter Name" class="contact-inputs" required/>
+                    <input type="text" name="email" placeholder="Enter Email" class="contact-inputs" required/>
+                    
+                    <textarea name="message" placeholder="Enter Message" class="contact-inputs" required></textarea>
+                    
+                    <div btn-container>
+                        <button type="submit" class="btn btn-color-2">Submit </button>
+                    </div>
+
+                    </div>
+
+                </form>
+                
+            </div>
+
+        </div>
+
+    </section>
+
     
+
+    <footer class="footer">Powered By Rohan Mankame</footer>
 
     </section>
 

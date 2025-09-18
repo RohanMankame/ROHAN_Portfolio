@@ -1,4 +1,10 @@
 
+/* Refresh window */
+window.history.scrollRestoration = "manual";
+window.scrollTo(0, 0);
+
+
+
 /* Hamburger Menu */
 function toggleMenu() {
     const menuLinks = document.querySelector('.menu-links');
@@ -20,7 +26,8 @@ function randomBetween(min,max){
 
 let circles = [];
 
-const colors = ['#000000ff','#34bdc7a1','#000000ff','#b634c7a1','#34c759a1','#000000ff']
+const colors = ['#000000ff','#01eeff88','#000000ff','#09beeba1','#09f5c2a1','#000000ff']
+/* FavColours = #34bdc7a1 , #b634c7a1 , #34c759a1 */
 
 document.body.style.backgroundColor = "#000000ff"
 
