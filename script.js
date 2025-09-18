@@ -84,9 +84,14 @@ function animate(){
 function resizeCanvas(){
     /* canvas.width = window.innerWidth *1.5;
     canvas.height = window.innerHeight *1.5; */
-    canvas.width = window.innerWidth*2;
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+
+    /* canvas.width = window.innerWidth*2;
     canvas.height = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight)*1.5;
-    
+     */
 
    
 
