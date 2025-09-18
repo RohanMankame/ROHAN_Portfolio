@@ -26,7 +26,7 @@ function randomBetween(min,max){
 
 let circles = [];
 
-const colors = ['#000000ff','#01eeff88','#000000ff','#09beeba1','#09f5c2a1','#000000ff']
+const colors = ['#09f5c2a1','#01eeff88','#000000ff','#09f5c2a1','#09f5c2a1','#09f5c2a1']
 /* FavColours = #34bdc7a1 , #b634c7a1 , #34c759a1 */
 
 document.body.style.backgroundColor = "#000000ff"
@@ -34,7 +34,7 @@ document.body.style.backgroundColor = "#000000ff"
 function initCircles(){
     circles = [];
     /* let circleCount = window.innerWidth / 100; */
-    let baseCount = Math.floor((window.innerWidth + window.innerHeight) / 80);
+    let baseCount = Math.floor((window.innerWidth + (window.innerHeight)) / 80);
     let circleCount = Math.max(baseCount, 20);
     for( let i=0; i<circleCount; i++){
         let radius = window.innerWidth/4;
@@ -85,8 +85,8 @@ function resizeCanvas(){
     /* canvas.width = window.innerWidth *1.5;
     canvas.height = window.innerHeight *1.5; */
 
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth*1.5;
+    canvas.height = window.innerHeight*6.5;
 
 
     /* canvas.width = window.innerWidth*2;
