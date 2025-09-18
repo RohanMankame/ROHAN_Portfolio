@@ -5,4 +5,19 @@
     #hamburger-nav{
         display: flex;
     }
+
+    .intro1 {
+    margin: 0rem; 
+    padding: 0rem;
+    text-align: center;
+    
+}
+
+.intro2 {
+    margin: 0rem; 
+    padding: 0rem;
+    text-align: center;
+    
+    
+}
 }

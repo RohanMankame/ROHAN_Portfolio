@@ -92,7 +92,7 @@ function resizeCanvas(){
 
     
 
-    initCircles();
+    /* initCircles(); */
 
 }
 
