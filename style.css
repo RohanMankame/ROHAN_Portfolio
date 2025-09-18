@@ -643,7 +643,7 @@ article .tech-name-container{
 
 
 .contact-inputs{
- 
+    font: 'Satoshi';
     font-size: 1rem;
     width: 15rem;
     height: 2.5rem;
@@ -651,7 +651,7 @@ article .tech-name-container{
     outline: none;
     padding: 1rem;
     font-weight: 500;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     text-align:left;
     border: 0.1rem solid black;
     max-width: 100%;
@@ -659,6 +659,7 @@ article .tech-name-container{
 }
 
 textarea.contact-inputs {
+    font: 'Satoshi';
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
