@@ -209,7 +209,9 @@ a:hover{
 
 
 /* BASE HTML */
-
+html, body {
+    min-width: 175px;
+}
 
 html{
     scroll-behavior: smooth;
@@ -234,13 +236,20 @@ body{
 }
 
 #canvas{
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: -1;
     pointer-events: none;
-    overflow: hidden;
+    overflow: hidden; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
     
 }
 
@@ -524,7 +533,7 @@ body{
 
 .Tech-content-container{
     flex: 1 1 0;           /* all containers grow equally */
-    min-width: 200px;      /* set a minimum width */
+    min-width: fit-content;      /* set a minimum width */
     border-radius: 1rem;
     background: hsla(0, 0%, 0%, 0.486);
     backdrop-filter: blur(1px);
@@ -561,7 +570,7 @@ body{
 
 article{
     display: flex;
-    width: 10rem;
+    max-width: 10rem;
     justify-content: space-around;
     gap: 0.5rem;
     /* border: white solid 1px; */
@@ -603,6 +612,7 @@ article .tech-name-container{
     color: white;
     position: relative;
     overflow: hidden;
+    padding: 1rem;
 }
 
 
@@ -688,7 +698,8 @@ textarea.contact-inputs {
     display: flex;
     justify-content: center;
     color: rgba(255, 255, 255, 0.452);
-    height: 10vh;
+    height: 5vh;
     padding-bottom: 1rem;
-    padding-top: 2rem;
+    padding-top: 0rem;
+    background-color: rgb(0, 0, 0);
 }
