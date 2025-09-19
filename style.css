@@ -1,4 +1,3 @@
-
 @import url('https://api.fontshare.com/v2/css?f[]=bespoke-serif@400&f[]=tanker@400&display=swap');
 @import url('https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap');
 
@@ -83,10 +82,6 @@ a:hover{
     font-size: 1.5rem;
 }
 
-
-
-
-
 .logoName{
     font-size: 1rem;
     color: white;
@@ -97,17 +92,14 @@ a:hover{
     padding-right: 1rem;
 }
 
-/* .logoName:hover{
+.logoName:hover{
     opacity: 0;
     transition: all 0.5s ease-in-out;
-} */
+}
 
 /*hamburger menu*/
 #hamburger-nav{
-    display: flex;
-    height: fit-content;
-    width: 100vw;
-    justify-content: space-between;
+    display: none;
     
 }
 
@@ -125,23 +117,6 @@ a:hover{
     cursor: pointer;
 }
 
-
-
-.hamburger-nav-icon{
-    display: flex;
-    justify-content:flex-start;
-    
-}
-
-.Ham-Logo {
-    height: 2rem;
-    margin-right: 1rem; 
-}
-
-.Ham-Logo:last-child {
-    margin-right: 0;
-}
-
 .hamburger-icon span{
     display: block;
     width: 100%;
@@ -149,6 +124,18 @@ a:hover{
     background-color: white;
     transition: all 0.3 ease-in-out;
 }
+
+.hamburger-nav-icon img{
+    height:2rem;
+    
+}
+
+.hamburger-nav-icon {
+    display: flex;
+    gap: 1rem; 
+    align-items: center;
+}
+
 
 .menu-links{
     /* position: absolute;
@@ -200,7 +187,6 @@ a:hover{
     display: block;
     min-height: fit-content;
     max-height: 50vh;
-    
     
     
 
@@ -547,11 +533,10 @@ body{
 .technologies-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem; 
-    align-items: stretch; 
+    gap: 2rem; /* space between containers */
+    align-items: stretch; /* all children same height */
     color:white;
     padding: 2rem;
-    
     
 }
 
@@ -728,7 +713,6 @@ textarea.contact-inputs {
     color: rgba(255, 255, 255, 0.452);
     height: 5vh;
     padding-bottom: 1rem;
-    padding-top: 0.5rem;
     padding-top: 0rem;
     background-color: rgb(0, 0, 0);
 }
