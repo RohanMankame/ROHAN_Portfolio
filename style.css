@@ -210,6 +210,11 @@ a:hover{
 
 /* BASE HTML */
 
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 
 html{
     scroll-behavior: smooth;
