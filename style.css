@@ -545,7 +545,7 @@ body{
 
 .Tech-content-container{
     flex: 1 1 0;           /* all containers grow equally */
-    min-width: fit-content;      /* set a minimum width */
+    min-width: 12rem;      /* set a minimum width */
     border-radius: 1rem;
     background: hsla(0, 0%, 0%, 0.486);
     backdrop-filter: blur(1px);
@@ -578,7 +578,7 @@ body{
     flex-direction: row;
     gap: 2rem;
     justify-content: space-around;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 article{
@@ -702,7 +702,23 @@ textarea.contact-inputs {
 }
 
 
+.btn-color-2{
+    border: 1px white solid;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 0.3rem;
+    background-color: hsla(0, 0%, 0%, 0.486);
+    color: white;
+}
 
+.btn-color-2:hover{
+    border: 1px white solid;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    color: black;
+}
 
 /* Footer */
 
