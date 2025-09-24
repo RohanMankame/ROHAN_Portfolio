@@ -13,7 +13,7 @@ body::-webkit-scrollbar-track{
 }
 
 body::-webkit-scrollbar-thumb{
-    background:#00eeff ;
+    background:rgb(250, 187, 250);
     
 }
 
@@ -51,6 +51,17 @@ nav,
     
 }
 
+
+.navBar-container hr {
+    
+    border: 1px solid rgba(182, 95, 182, 0.493); /* match your border thickness/color */
+    
+    
+
+}
+
+
+
 nav {
     justify-content: space-around;
     align-items: center;
@@ -77,9 +88,10 @@ a:hover{
     color: rgb(255, 253, 253);
     text-decoration: underline;
     text-underline-offset: 0.5rem ;
-    text-decoration-color: white ;
+    text-decoration-color: rgb(250, 187, 250);
     font-weight: bold;
     font-size: 1.5rem;
+    
 }
 
 .logoName{
@@ -314,6 +326,8 @@ body{
     font-weight: bold;
     padding: 0rem;
     margin: 0rem;
+    color: rgb(250, 187, 250);
+    
     
     
 }
@@ -323,6 +337,34 @@ body{
     
     
 }
+
+
+
+
+.btn-resume{
+    border: 1px rgb(250, 187, 250) solid;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 0.3rem;
+    background-color: hsla(0, 0%, 0%, 0.486);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-resume:hover{
+    border: 1px white solid;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 0.3rem;
+    background-color: rgb(250, 187, 250);
+    color: black;
+}
+
+
+
+
+
+
 
 .name{
     display:flex;
@@ -449,7 +491,8 @@ body{
     min-height: 100vh;
     max-height:fit-content;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     color: white;
     position: relative;
@@ -503,7 +546,7 @@ body{
     width: 100%;
     margin: 0;
     border: none;
-    border-top: 1px solid #ffffff; /* match your border thickness/color */
+    border-top: 1px solid rgba(182, 95, 182, 0.493); /* match your border thickness/color */
     align-self: stretch; /* ensures it fills the flex container */
     
 
@@ -512,6 +555,7 @@ body{
 .container-title{
     padding: 0.3rem;
     padding-left: 1rem;
+    color: rgb(250, 187, 250);
 }
 
 .about-text{
@@ -524,6 +568,7 @@ body{
 
 .space{
     height: 10vh;
+    
 }
 
 .technologies{
@@ -562,7 +607,7 @@ body{
     width: 100%;
     margin: 0;
     border: none;
-    border-top: 1px solid #ffffff; 
+    border-top: 1px solid rgba(182, 95, 182, 0.493); 
     align-self: stretch;
 }
 
@@ -620,11 +665,12 @@ article .tech-name-container{
 .contact{
     /* height: 100vh; 
     min-height: 30em;*/
-    min-height: 100vh;
-    max-height:fit-content;
+    max-height: 100vh;
+    min-height:90vh;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
+    flex-direction: column;
     color: white;
     position: relative;
     overflow: hidden;
@@ -655,7 +701,7 @@ article .tech-name-container{
     width: 100%;
     margin: 0;
     border: none;
-    border-top: 1px solid #ffffff; 
+    border-top: 1px solid rgba(182, 95, 182, 0.493); 
     align-self: stretch;
 }
 
@@ -683,6 +729,7 @@ article .tech-name-container{
     border: 0.1rem solid black;
     max-width: 100%;
     box-sizing: border-box;
+    
 }
 
 textarea.contact-inputs {
@@ -706,12 +753,13 @@ textarea.contact-inputs {
 
 
 .btn-color-2{
-    border: 1px white solid;
+    border: 1px rgb(250, 187, 250) solid;
     height: 2rem;
     width: 4rem;
     border-radius: 0.3rem;
     background-color: hsla(0, 0%, 0%, 0.486);
     color: white;
+    cursor: pointer;
 }
 
 .btn-color-2:hover{
@@ -719,9 +767,115 @@ textarea.contact-inputs {
     height: 2rem;
     width: 4rem;
     border-radius: 0.3rem;
-    background-color: white;
+    background-color: rgb(250, 187, 250);
     color: black;
 }
+
+/* Projects */
+
+#projects{
+    min-height: 100vh;
+    max-height:fit-content;
+    width: 100%;
+}
+
+.title-intro{
+    display: flex;
+    align-items: stretch; 
+    color:rgba(182, 95, 182, 0.493);
+    padding: 0.5rem;
+    justify-content: center;
+    
+}
+
+.projects-container{
+    width: 90%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+
+
+
+.project-content-container{
+    /* flex: 1 1 0;           
+    min-width: 12rem; */     
+    border-radius: 1rem;
+    background: hsla(0, 0%, 0%, 0.486);
+    backdrop-filter: blur(1px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.project-content-container hr{
+    width: 100%;
+    margin: 0;
+    border: none;
+    border-top: 1px solid rgba(182, 95, 182, 0.493); 
+    align-self: stretch;
+}
+
+
+.stack{
+    padding-left: 1rem;
+    font-weight: 600;
+    color: rgb(250, 187, 250);
+    
+}
+
+
+
+.project-vid-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;             
+    flex-wrap: wrap;   
+   
+}
+
+.projectVid{
+    display: flex;
+    width: 45%;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    
+
+}
+
+.projectImg {
+    display: flex;
+    flex-direction: row;
+    gap: 1%; 
+    align-items: center; 
+    justify-content: center;
+    
+}
+
+.project-text {
+    flex-direction: column;
+    display: flex;
+    padding: 1rem;
+    align-items: flex-start; 
+    
+    
+}
+
+.button-container-links{
+    
+    padding: 1rem;
+    justify-content:center;
+    align-self: center;
+    
+}
+
+
+
+
 
 /* Footer */
 
