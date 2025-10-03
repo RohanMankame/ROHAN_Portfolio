@@ -17,6 +17,9 @@ body::-webkit-scrollbar-thumb{
     
 }
 
+
+
+
 /* NAV */
 /* Transition */
 
@@ -346,7 +349,7 @@ body{
     height: 2rem;
     width: 8rem;
     border-radius: 0.3rem;
-    background-color: hsla(0, 0%, 0%, 0.486);
+    background-color: hsla(0, 0%, 0%, 0.219);
     color: white;
     cursor: pointer;
 }
@@ -387,6 +390,8 @@ body{
     margin: 0rem; 
     padding: 0rem;
     text-align: start;
+    font-weight: 600;
+    
     
 }
 
@@ -394,10 +399,8 @@ body{
     margin: 0rem; 
     padding: 0rem;
     text-align: end;
-    
-    
+    font-weight: 600;
 }
-
 
 
 
@@ -794,6 +797,7 @@ textarea.contact-inputs {
     display: flex;
     flex-direction: column;
     color: white;
+    gap:2rem
 
 }
 
@@ -809,6 +813,7 @@ textarea.contact-inputs {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    max-height:fit-content;
     
 }
 
@@ -843,6 +848,8 @@ textarea.contact-inputs {
     width: 45%;
     border-radius: 1rem;
     padding: 0.5rem;
+    max-height: 35vh;
+    
     
 
 }
@@ -850,6 +857,7 @@ textarea.contact-inputs {
 .projectImg {
     display: flex;
     flex-direction: row;
+    
     gap: 1%; 
     align-items: center; 
     justify-content: center;
@@ -873,6 +881,10 @@ textarea.contact-inputs {
     
 }
 
+.noDemoMsg{
+    margin-top: 0.5rem;
+    color: rgb(134, 27, 27);
+}
 
 
 

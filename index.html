@@ -89,11 +89,14 @@
             <div class="introDiv"> 
                 <p class="intro1">Hello, I am</p>
                     <h1 class="name">ROHAN MANKAME</h1>
+                
                 <p class="intro2">a FullStack Software Developer</p>
+                
+                
                 <!-- <h2 class="intro">FullStack Software Developer</h2> -->
                 <div class="space"></div>
                 <div btn-resume-container>
-                        <button type="submit" class="btn btn-resume"><h5>Download Resume</h5> </button>
+                        <button type="submit" class="btn btn-resume" onclick="window.open('./assets/resume-example.pdf')"><h5>Download Resume</h5> </button>
                 </div>
 
 
@@ -128,8 +131,8 @@
     <section class="about" id="about">
         <div class="space"></div>
         <h1 class="title-intro">About</h1>
-        <div class="about-container">
-            <h2 class="container-title">About Me</h2><hr>
+        <div class="about-container ">
+            <h2 class="container-title ">About Me</h2><hr>
             <p class="about-text">Hey there, I'm Rohan, a 
                 recent Computer Science graduate from Penn State,
                  driven by a passion for building software that 
@@ -239,6 +242,15 @@
                             </article>
 
                             <article>
+                                <img src="./assets/FrontendTech/Tailwind CSS.png" alt="experience" class="icon" />
+                                <div class="tech-name-container">
+                                    <h3>Tailwind</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+
+
+                            <article>
                                 <img src="./assets/FrontendTech/React_Logo.png" alt="experience" class="icon" />
                                 <div class="tech-name-container">
                                     <h3>React</h3>
@@ -337,6 +349,9 @@
         <h1 class="title-intro">Projects</h1>
         <div class="projects-container">
 
+
+
+
             <div class="project-content-container">
                 <h2 class="container-title">StudyForums</h2><hr>
                 <div class="project-artical-container">
@@ -365,7 +380,9 @@
                                 </p>
 
                             </div>
-                            <div class="button-container-links">
+                            
+                        </div>
+                        <div class="button-container-links">
                                 <button class="btn btn-color-2 project-btn"
                             onclick="location.href='https://github.com/RohanMankame/StudyForum-webapp'">
                             Github
@@ -375,7 +392,6 @@
                             Demo
                             </button>
 
-                            </div>
                         </div>
 
                     </div>
@@ -383,6 +399,158 @@
   
                 </div>
             </div>
+
+
+            
+
+
+            <div class="project-content-container">
+                <h2 class="container-title">StudyForums</h2><hr>
+                <div class="project-artical-container">
+                    <div>
+                        <p class="stack">Python, Django, HTML, CSS, JavaScript, sqLite</p><hr>
+                        <div class="project-vid-text">
+                            <div class="projectImg">
+                            <img src="./assets/projectAssets/StudyForumPic.png" alt="projectvid" class="projectVid"  />
+                            <img src="./assets/projectAssets/StudyForum-SampleVid (1).gif" alt="projectvid" class="projectVid"  />
+                            </div>
+                            <div class="project-text">
+                                <p>StudyForum is a Django-based web application for creating 
+                                    and joining discussion rooms, messaging with others, and 
+                                    sharing knowledge.<br>
+                                </p>
+                                <p>Features:<br>
+                                    
+                                    - Secure user authentication (register, login, logout)<br>
+                                    - Create, update, and delete of rooms and messages (with user based restrictions)<br>
+                                    - Gives users ability to Host or join multiple rooms.<br>
+                                    - Browse topics and posts efficiently using search tab or feed activity<br>
+                                    - View spefic user profiles for their recent activity/ posts<br>
+                                    - User profile customization with image uploading for profile pictues
+
+
+                                </p>
+
+                            </div>
+                            
+                        </div>
+                        <div class="button-container-links">
+                                <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/RohanMankame/StudyForum-webapp'">
+                            Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/RohanMankame/StudyForum-webapp'">
+                            Demo
+                            </button>
+
+                        </div>
+
+                    </div>
+
+  
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="project-content-container">
+                <h2 class="container-title">YouNote AI </h2><hr>
+                <div class="project-artical-container">
+                    <div>
+                        <p class="stack">Python, Django, HTML, Tailwind CSS, JavaScript, Posgress, OpenAi, AssemblyAi, Pytube</p><hr>
+                        <div class="project-vid-text">
+                            <div class="projectImg">
+                            <img src="./assets/projectAssets/YouNote Example.gif" alt="projectvid" class="projectVid"  />
+                            <img src="./assets/projectAssets/YouNote Example2.gif" alt="projectvid" class="projectVid"  />
+                            </div>
+                            <div class="project-text">
+                                <p>StudyForum is a Django-based web application for creating 
+                                    and joining discussion rooms, messaging with others, and 
+                                    sharing knowledge.<br>
+                                </p>
+                                <p>Features:<br>
+                                    
+                                    - Secure user authentication (register, login, logout)<br>
+                                    - Generate Notes from youtube urls about the topics/ concepts in the video<br>
+                                    - Saved Notes and urls for later use by user<br>
+                                    - Ability to modify and delete saved notes<br>
+
+
+                                </p>
+
+                            </div>
+                            
+                        </div>
+                        <div class="button-container-links">
+                                <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/RohanMankame/StudyForum-webapp'">
+                            Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/RohanMankame/StudyForum-webapp'">
+                            Demo
+                            </button>
+                            <p class="noDemoMsg">This demo is avalable but the live service is being blocked by youtube, due to bot detection.</p>
+
+
+                        </div>
+
+                    </div>
+
+  
+                </div>
+            </div>
+
+
+
+
+            <div class="project-content-container">
+                <h2 class="container-title">mini-C Compiler</h2><hr>
+                <div class="project-artical-container">
+                    <div>
+                        <p class="stack">Java , JFlex, BYACC/J</p><hr>
+                        <div class="project-vid-text">
+                            <div class="projectImg">
+                            <img src="./assets/projectAssets/ParseTree Info Compiler.png" alt="projectvid" class="projectVid"  />
+                            <img src="./assets/projectAssets/Compiler Example 1.gif" alt="projectvid" class="projectVid"  />
+                            </div>
+                            <div class="project-text">
+                                <p>This project is a compiler for "minic", a small, statically-typed programming language. It was built using Java and compiler construction tools like JFlex (for lexical analysis) and BYACC/J (for parsing).
+                                    The compiler parses source code written in minic, performs semantic analysis to catch errors, and then directly interprets the program to execute it.<br>
+                                </p><br>
+                                <p>Features:<br>
+                                    
+                                    - Implements Data Types, Variables, Functions, Control Flow statements and Expressions. <br>
+                                    - Lexical Analysis: Converts source code into tokens using JFlex. <br>
+                                    - Parsing: Builds a parse tree from tokens using BYACC/J.<br>
+                                    - Semantic Analysis: Checks for errors like type mismatches, undeclared variables, and incorrect function calls.<br>
+                                    - Interpretation: Executes the code directly if no errors are found.<br>
+                                    - Error Reporting: Detects and reports semantic errors during compilation.<br>
+
+                                </p>
+
+                            </div>
+                            
+                        </div>
+                        <div class="button-container-links">
+                                <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/RohanMankame/StudyForum-webapp'">
+                            Github
+                            </button >
+                            <p class="noDemoMsg">This is a backend project please download source code from github to give it a try. Build and execution instructions are in my github readme.</p>
+
+                        </div>
+
+                    </div>
+
+  
+                </div>
+            </div>
+
 
 
         </div>
