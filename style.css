@@ -241,10 +241,8 @@ a:hover{
 /* BASE HTML */
 
 html, body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    min-width: 175px;
 }
-
 
 html{
     scroll-behavior: smooth;
