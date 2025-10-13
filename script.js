@@ -1,7 +1,7 @@
 
 /* Refresh window */
-window.history.scrollRestoration = "manual";
-window.scrollTo(0, 0);
+/* window.history.scrollRestoration = "manual";
+window.scrollTo(0, 0); */
 
 
 
@@ -26,7 +26,7 @@ function randomBetween(min,max){
 
 let circles = [];
 
-const colors = ['#09f5c2a1','#01eeff88','#000000ff','#09f5c2a1','#09f5c2a1','#09f5c2a1']
+const colors = ['#fc00e7a1','#0c0c0c88','#000000ff','#fd00e8a1','#000000a1','#000000a1']
 /* FavColours = #34bdc7a1 , #b634c7a1 , #34c759a1 */
 
 document.body.style.backgroundColor = "#000000ff"

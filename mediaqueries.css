@@ -4,7 +4,23 @@
     }
     #hamburger-nav{
         display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: hsla(0, 0%, 0%, 0.726);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(100px) ;
+        padding: 0.5rem;
+        height: fit-content;
+        justify-content:space-between;
+
+        
     }
+
+    
+
+
+    
 
     .intro1 {
     margin: 0rem; 
@@ -20,4 +36,17 @@
     
     
 }
+
+.hero h1{
+    font-size: 2rem;
+    display: flex;
+    /* font-size: clamp(3em,8vw,9em); */
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    padding: 0rem;
+    margin: 0rem;
+    
+    
+}
+
 }
